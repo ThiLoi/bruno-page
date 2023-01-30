@@ -1,0 +1,303 @@
+#principal {
+    background-image: url(/img/capa.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+#principal img {
+    width: 50%;
+    margin-bottom: 3%;
+}
+
+#principal .none {
+    display: none;
+}
+
+.ld-esquerdo {
+    width: 25%;
+    margin: 8% 5%;
+}
+
+#principal .texto h1{
+    font-family: "Chakra Petch", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;  
+}
+
+#principal .texto p {
+    font-family: "Chakra Petch", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.ld-esquerdo button {
+    width: 80%;
+    border-radius: 0;
+}
+
+#slide {
+    background-color: black;
+    color: #fff;
+    margin-top: 3%;
+}
+
+#slide h1 {
+    width: 80%;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.container-g {
+    max-width: 640px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.gallery-wrapper {
+    overflow-x: auto;
+  }
+  
+.arrow-left,
+.arrow-right {
+width: 40px;
+color: #fff;
+transition: all 600ms ease-in-out;
+background: linear-gradient(to left, transparent 0%, black 200%);
+opacity: 0.6;
+cursor: pointer;
+border: none;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+opacity: 1;
+}
+
+.arrow-right {
+background: linear-gradient(to right, transparent 0%, black 200%);
+}
+
+.gallery {
+display: flex;
+flex-flow: row nowrap;
+gap: 15px;
+}
+
+.item {
+width: 250px;
+height: 250px;
+flex-shrink: 0;
+transition: all 600ms ease-in-out;
+opacity: 0.5;
+}
+
+.current-item {
+opacity: 1;
+}
+
+#fotos {
+    margin-top: 5%;
+}
+
+#fotos .texto {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#fotos .texto h1 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#fotos .texto p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+}
+
+#fotos .fotos {
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+}
+
+.fotos img {
+    height: auto;
+    max-width: 100%;
+    padding: 3%;
+}
+
+#fotos button {
+    margin: 0 25%;
+    width: 50%;
+    border-radius: 0;
+}
+
+#not img {
+    height: auto;
+    max-width: 100%;
+}
+
+#not .texto {
+    margin: 0% auto;
+}
+
+#not h1 {
+    color: #3f7eab;
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.separador {
+    background: #3f7eab;
+    padding: 0.3%;
+    width: 100%;
+    height: 0.3;
+    align-content: left;
+    margin-top: 5%;
+}
+
+#not p {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 5%;
+}
+
+#not .texto {
+    width: 70%;
+}
+
+#oferta {
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 600;
+    width: 50%;
+}
+
+#oferta .border {
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    padding: 15% 0;
+}
+
+#oferta button {
+    width: 60%;
+    padding: 1%;
+}
+
+#oferta content {
+    width: 70%;      
+}
+
+#oferta h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+#oferta p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 7%;
+}
+
+#oferta h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+#oferta h2 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 2%;
+}
+
+#mentor {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#mentor .texto {
+    scale: 100%;
+}
+
+#mentor .foto h1 {
+    margin-bottom: 2%;
+}
+
+#mentor h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#mentor h4 {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+#mentor img{
+    margin-top: 10%;
+    width: 50%;
+}
+
+#mentor .titulo{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.resposta {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#mentor .bordar {
+    margin-bottom: 5%;
+}
+
+#answer {
+    margin-bottom: 5%;
+}
+
+#answer h1 {
+    margin-bottom: 3%;
+    font-size: 24px;
+}
+
+#answer button:hover {
+    color: #3f7eab;
+}
+
+.perguntas {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 2% 0;
+}
+
+.perguntas p {
+    display: none;
+    margin-top: 3%;
+}
+
+.perguntas i {
+    margin-right: 1%;
+}
+
+.perguntas button {
+    background-color: black;
+    color: white;
+}
