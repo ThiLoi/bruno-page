@@ -82,6 +82,14 @@
         margin-top: 10%;
     }
 
+    #not img {
+        scale: 140%;
+    }
+
+    #not .texto {
+        width: 90%;
+    }
+
     #not h1 {
         margin-top: 10%;
     }
@@ -100,30 +108,36 @@
         width: 90%;
     }
 
+    #oferta .content {
+        margin: 0 auto;
+        width: 60%;
+    }
+
     #oferta button {
-        font-size: 12px;
-        padding: 5%;
-        width: 80%;
+        font-size: 14px;
+        padding: 2%;
+        width: 80%; 
     }
 
     #oferta .border {
-        padding: 10% 0;
+        padding: 4% 0;
     }
     
     #oferta h4 {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     #oferta p {
-        font-size: 14px;
+        font-size: 11px;
     }
 
     #oferta h1 {
-        font-size: 36px;
+        font-size: 28px;
     }
 
     #oferta h2 {
-        font-size: 18px;
+        font-size: 14px;
+        margin-bottom: 0;
     }
 
     #mentor {
@@ -138,8 +152,9 @@
         margin-bottom: 5%;
     }
 
-    #mentor .img {
+    #mentor img {
         margin-bottom: 10%;
+        width: 90%;
     }
 
     #mentor .titulo {
@@ -156,7 +171,7 @@
     }
 
     #mentor .texto {
-        scale: 80%;
+        scale: 100%;    
     }
 
     #answer h1 {
@@ -165,19 +180,23 @@
 
     #answer button {
         margin-left: 2%;
+        border-style: none;
     }
 
     #answer button:hover {
         color: white;
     }
 
-    .perguntas {
+    #answer {
         font-size: 16px;
     }
 
-    .perguntas:last-child {
+    #answer .ultimo {
+        width: 93%;
+    }
+
+    #answer button:last-child {
         margin-left: 0;
         font-size: 1px;
     }
-
 }

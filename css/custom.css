@@ -41,6 +41,7 @@
     border-radius: 0;
 }
 
+
 #fotos {
     margin-top: 5%;
 }
@@ -219,22 +220,21 @@
     color: #3f7eab;
 }
 
-.perguntas {
+#answer {
     font-size: 18px;
     font-weight: 400;
     margin: 2% 0;
 }
 
-.perguntas p {
-    display: none;
+#answer p {
     margin-top: 3%;
 }
 
-.perguntas i {
+#answer i {
     margin-right: 1%;
 }
 
-.perguntas button {
+#answer button {
     background-color: black;
     color: white;
 }
