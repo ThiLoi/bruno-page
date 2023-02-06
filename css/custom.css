@@ -216,7 +216,7 @@
     font-size: 24px;
 }
 
-#answer button:hover {
+#answer a:hover {
     color: #3f7eab;
 }
 
@@ -234,7 +234,12 @@
     margin-right: 1%;
 }
 
-#answer button {
+#answer a {
     background-color: black;
     color: white;
+    cursor: pointer;
+}
+
+#answer .ultimo {
+    text-decoration: none;
 }

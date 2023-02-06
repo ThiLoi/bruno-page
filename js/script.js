@@ -9,8 +9,8 @@ respostas.forEach(x => x.style.display = "none");
 
 function ativar(posicao){      
   if (respostas[posicao].style.display == "none"){ 
-    respostas.forEach(x => x.style.display = "none"); //esconde todos os outros
-    respostas[posicao].style.display = "block"; //mostra este
+    respostas.forEach(x => x.style.display = "none");
+    respostas[posicao].style.display = "block"; 
   }
   else {
     respostas[posicao].style.display = "none";

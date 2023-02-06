@@ -178,12 +178,13 @@
         margin: 10% 0;
     }
 
-    #answer button {
+    #answer a {
         margin-left: 2%;
         border-style: none;
+        cursor: pointer;
     }
 
-    #answer button:hover {
+    #answer a:hover {
         color: white;
     }
 
@@ -195,7 +196,7 @@
         width: 93%;
     }
 
-    #answer button:last-child {
+    #answer a:last-child {
         margin-left: 0;
         font-size: 1px;
     }
