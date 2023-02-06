@@ -196,6 +196,10 @@
         width: 93%;
     }
 
+    #answer {
+        border: none;
+    }
+
     #answer a:last-child {
         margin-left: 0;
         font-size: 1px;

@@ -1,35 +1,18 @@
-function ativar() {
-  var x = document.getElementById("resposta");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
+var respostas = [
+  document.getElementById("resposta"),
+  document.getElementById("resposta1"),
+  document.getElementById("resposta2"),
+  document.getElementById("resposta3")
+];
 
-function ativar1() {
-  var x = document.getElementById("resposta1");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
+respostas.forEach(x => x.style.display = "none");
 
-function ativar2() {
-  var x = document.getElementById("resposta2");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
+function ativar(posicao){      
+  if (respostas[posicao].style.display == "none"){ 
+    respostas.forEach(x => x.style.display = "none"); 
+    respostas[posicao].style.display = "block"; 
   }
-}
-
-function ativar3() {
-  var x = document.getElementById("resposta3");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
+  else {
+    respostas[posicao].style.display = "none";
   }
 }
