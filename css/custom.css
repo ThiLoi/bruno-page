@@ -228,16 +228,16 @@
 
 #answer p {
     margin-top: 3%;
+    display: none;
 }
 
 #answer i {
     margin-right: 1%;
 }
 
-#answer a {
+#answer button {
     background-color: black;
     color: white;
-    cursor: pointer;
 }
 
 #answer .ultimo {
