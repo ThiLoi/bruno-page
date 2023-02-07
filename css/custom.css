@@ -219,7 +219,7 @@
     font-size: 24px;
 }
 
-#answer h2 {
+#answer .pergunta {
     font-size: 18px;
     margin-top: 1%;
     font-weight: 700;

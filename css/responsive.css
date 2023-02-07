@@ -183,7 +183,7 @@
         margin: 10% 0;
     }
 
-    #answer h2 {
+    #answer .pergunta {
         margin-left: 2%;
         margin-top: 5%;
     }
