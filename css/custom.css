@@ -228,23 +228,9 @@
 
 #answer p {
     margin-top: 3%;
-}
-
-#resposta {
     display: none;
 }
 
-#resposta1 {
-    display: none;
-}
-
-#resposta2 {
-    display: none;
-}
-
-#resposta3 {
-    display: none;
-}
 
 #answer i {
     margin-right: 1%;
