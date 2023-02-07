@@ -174,22 +174,22 @@
         scale: 100%;    
     }
 
-    #answer h1 {
+    #answer {
+        font-size: 16px;
+        margin-bottom: 20%;
+    }
+
+    #answer .titulo {
         margin: 10% 0;
     }
 
-    #answer a {
+    #answer h2 {
         margin-left: 2%;
-        border-style: none;
-        cursor: pointer;
+        margin-top: 5%;
     }
 
-    #answer a:hover {
-        color: white;
-    }
-
-    #answer {
-        font-size: 16px;
+    #answer i {
+        margin-right: 3%;
     }
 
     #answer .ultimo {
@@ -199,9 +199,3 @@
     #answer {
         border: none;
     }
-
-    #answer a:last-child {
-        margin-left: 0;
-        font-size: 1px;
-    }
-}

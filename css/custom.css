@@ -93,13 +93,13 @@
 }
 
 #not h1 {
-    color: #3f7eab;
+    color: #FFC107;
     font-size: 31px;
     font-weight: 700;
 }
 
 .separador {
-    background: #3f7eab;
+    background: #FFC107;
     padding: 0.3%;
     width: 100%;
     height: 0.3;
@@ -211,13 +211,9 @@
     margin-bottom: 5%;
 }
 
-#answer h1 {
+#answer .titulo {
     margin-bottom: 3%;
     font-size: 24px;
-}
-
-#answer a:hover {
-    color: #3f7eab;
 }
 
 #answer {
@@ -226,19 +222,19 @@
     margin: 2% 0;
 }
 
+#answer h2 {
+    font-size: 20px;
+    margin-top: 1%;
+    font-weight: 700;
+}
+
 #answer p {
-    margin-top: 3%;
-    display: none;
+    margin-top: 1%;
 }
 
 
 #answer i {
     margin-right: 1%;
-}
-
-#answer button {
-    background-color: black;
-    color: white;
 }
 
 #answer .ultimo {
