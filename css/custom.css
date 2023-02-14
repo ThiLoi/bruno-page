@@ -1,5 +1,5 @@
 #principal {
-    background-image: url(/img/capa.jpg);
+    background-image: url(../img/capa.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,10 +12,6 @@
 #principal img {
     width: 50%;
     margin-bottom: 3%;
-}
-
-#principal .none {
-    display: none;
 }
 
 .ld-esquerdo {
@@ -93,7 +89,7 @@
 }
 
 #not h1 {
-    color: #FFC107;
+    color: #fffdf7;
     font-size: 31px;
     font-weight: 700;
 }
@@ -208,32 +204,39 @@
 }
 
 #answer {
-    font-size: 18px;
-    font-weight: 400;
-    margin: 2% 0;
     margin-bottom: 5%;
 }
 
-#answer .titulo {
+#answer h1 {
     margin-bottom: 3%;
     font-size: 24px;
 }
 
-#answer .pergunta {
+#answer button:hover {
+    color: #3f7eab;
+}
+
+.perguntas {
     font-size: 18px;
-    margin-top: 1%;
-    font-weight: 700;
+    font-weight: 400;
+    margin: 2% 0;
 }
 
-#answer p {
-    margin-top: 1%;
+.perguntas p {
+    display: none;
+    margin-top: 3%;
 }
 
-
-#answer i {
+.perguntas i {
     margin-right: 1%;
 }
 
-#answer .ultimo {
-    text-decoration: none;
+.perguntas button {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+
+#answer {
+    margin-bottom: 5%;
 }

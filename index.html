@@ -21,16 +21,11 @@
 
     <section id="principal">
         <div class="ld-esquerdo">
+            <img class="logo" src="img/logo-nome.svg" alt="">
             <div class="texto"> 
-                <img class="logo" src="img/logo-nome.svg" alt="">
                 <h1 class="mb-3">Domine as técnicas de viagens e conquiste seu milhão de milhas!</h1>
                 <p class="mb-5">Destrave o que impede você de alcançar viagens cada vez maiores.</p>
-            </div>
-            <button class="btn btn-warning">EU QUERO DOBRAR A META!</button>
-        </div>
-        <div class="ld-direito">
-            <div class="none col-md-8">
-                <img src="img/capa-2.jpg" alt="">
+                <button class="btn btn-warning">EU QUERO DOBRAR A META!</button>
             </div>
         </div>
     </section>
@@ -143,25 +138,33 @@
 
     <section id="answer">
         <div class="container">
-            <h1 class="titulo text-center">Perguntas Frequentes</h1>
-            <p class="pergunta"><i class="fa-solid fa-play"></i>A Imersão realmente funcionará comigo?</p>
-            <p id="resposta">Nós temos uma metodologia validada por dezenas de pessoas, e em todos eles foram constatados um aumento expressivo em seus resultados.</p>
+            <h1 class="text-center">Perguntas Frequentes</h1>
+            <div class="perguntas">
+                <i class="fa-solid fa-play"></i><button class="ultimo" onclick="ativar(0)">A Imersão realmente funcionará comigo?</button>
+                <p id="resposta">Nós temos uma metodologia validada por dezenas de pessoas, e em todos eles foram constatados um aumento expressivo em seus resultados.</p>
+            </div>
             <div class="bordar"></div>
-            <p class="pergunta"><i class="fa-solid fa-play"></i>Quais são as formas de pagamento?</p>
-            <p id="resposta1">Pix, boleto, Cartão de Crédito, Débito.</p>
+            <div class="perguntas">
+                <i class="fa-solid fa-play"></i><button onclick="ativar(1)">Quais são as formas de pagamento?</button>
+                <p id="resposta1">Pix, boleto, Cartão de Crédito, Débito.</p>
+            </div>
             <div class="bordar"></div>
-            <p class="pergunta"><i class="fa-solid fa-play"></i>Por quanto tempo terei acesso?</p>
-            <p id="resposta2">A imersão será gravada e você terá acesso vitalício.</p>
+            <div class="perguntas">
+                <i class="fa-solid fa-play"></i><button onclick="ativar(2)">Por quanto tempo terei acesso?</button>
+                <p id="resposta2">A imersão será gravada e você terá acesso vitalício.</p>
+            </div>
             <div class="bordar"></div>
-            <p class="pergunta ultimo"><i class="fa-solid fa-play"></i>Minha dúvida não está aqui, como faço para esclarecê-la?</p>
-            <p id="resposta3">Mande uma mensagem para o e-mail do nosso suporte: milhasilimitadas@gmail.com. Responderemos prontamente a qualquer uma de suas dúvidas sobre o método Mi.</p>
+            <div class="perguntas">
+                <i class="fa-solid fa-play"></i><button class="ultimo" onclick="ativar(3)">Minha dúvida não está aqui, como faço para esclarecê-la?</button>
+                <p id="resposta3">Mande uma mensagem para o e-mail do nosso suporte: milhasilimitadas@gmail.com. Responderemos prontamente a qualquer uma de suas dúvidas sobre o método Mi.</p>
+            </div>
             <div class="bordar"></div>
         </div>
     </section>
 
     
 
-
+    <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
   </body>
