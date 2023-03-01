@@ -95,7 +95,7 @@
 }
 
 .separador {
-    background: #FFC107;
+    background: #fff600;
     padding: 0.3%;
     width: 100%;
     height: 0.3;
@@ -118,7 +118,7 @@
     margin: 0 auto;
     font-size: 24px;
     font-weight: 600;
-    width: 50%;
+    width: 37%;
 }
 
 #oferta .border {
@@ -132,18 +132,14 @@
     padding: 1%;
 }
 
-#oferta content {
-    width: 70%;      
-}
-
 #oferta h4 {
-    font-size: 20px;
+    font-size: 36px;
     font-weight: 600;
     margin-bottom: 2%;
 }
 
 #oferta p {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 25px;
     margin-bottom: 7%;
@@ -213,7 +209,7 @@
 }
 
 #answer button:hover {
-    color: #3f7eab;
+    color: #fff600;
 }
 
 .perguntas {
